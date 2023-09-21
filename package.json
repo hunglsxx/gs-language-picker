@@ -1,0 +1,33 @@
+{
+    "name": "gs-language-picker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hunglsxx/gs-language-picker.git"
+    },
+    "bugs": {
+        "url": "https://github.com/hunglsxx/gs-language-picker/issues"
+    },
+    "homepage": "https://github.com/hunglsxx/gs-language-picker",
+    "keywords": [],
+    "author": "hungls",
+    "license": "ISC",
+    "dependencies": {
+        "@types/js-cookie": "^3.0.4",
+        "js-cookie": "^3.0.5",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "ts-loader": "^9.4.4",
+        "typescript": "^5.2.2",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
