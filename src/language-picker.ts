@@ -6,7 +6,7 @@ export interface LanguagePickerConfig {
     apiUrl?: string;
     apiLocationExtractKey?: string;
     cookieKey?: string;
-    supportLanguages?: any
+    supportLanguages?: any;
 }
 
 export class LanguagePicker {
